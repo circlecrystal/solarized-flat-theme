@@ -6,7 +6,7 @@ Project site: [https://github.com/circlecrystal/solarized-flat-theme](https://gi
 
 ## Design
 
-![](https://raw.githubusercontent.com/circlecrystal/solarized-flat-theme/master/solarized-flat.png)
+![](https://raw.githubusercontent.com/circlecrystal/solarized-flat-theme/master/Solarized Flat.png)
 
 ## Installation
 
