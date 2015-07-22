@@ -20,6 +20,8 @@ It doesn`t provide many unnecessary icons. So this will help you when you are ac
 
 Instead of making you have to look around to pretend that you enjoy the theme, the improved minimalist & distraction-free experience will help you enjoy focusing on what you do, rather than anything else.
 
+Even Package Control panel will be easy to read yet not disturbing -- to help you package controlling swiftly.
+
 ![](https://raw.githubusercontent.com/circlecrystal/solarized-flat-theme/master/Solarized Flat PC.png)
 
 ## Installation
