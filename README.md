@@ -7,10 +7,10 @@ Project site: [https://github.com/circlecrystal/solarized-flat-theme](https://gi
 ## Design
 
 Solarized Flat is an elegant & minimalist theme.
-![](https://raw.githubusercontent.com/circlecrystal/solarized-flat-theme/master/minimalist.png)
-It looks great, and disturb or distract you the least.
+![](https://raw.githubusercontent.com/circlecrystal/solarized-flat-theme/master/Minimalist.png)
+It should look great. And it will disturb or distract you the least.
 ![](https://raw.githubusercontent.com/circlecrystal/solarized-flat-theme/master/Solarized Flat.png)
-It doesn`t provide many icons (yet), but this improves the minimalist & distraction-free experience when you actually typing, instead of looking around, until you realize how distractive other material theme is.
+It doesn`t provide many unnecessary icons. This helps improving the minimalist & distraction-free experience when you are actually typing or thining for the next. Instead of making you have to look around to pretend that you enjoy the theme, Solarized Flat will help you enjoy focusing on what you do.
 
 ## Installation
 
