@@ -6,7 +6,7 @@ Project site: [https://github.com/circlecrystal/solarized-flat-theme](https://gi
 
 ## Design
 
-Solarized Flat is an elegant & minimalist theme.
+Solarized Flat is elegant. And it will persue minimalist design as hard the one using it deserves --- without being over-simplified.
 ![](https://raw.githubusercontent.com/circlecrystal/solarized-flat-theme/master/Minimalist.png)
 It should look great. And it will disturb or distract you the least.
 ![](https://raw.githubusercontent.com/circlecrystal/solarized-flat-theme/master/Solarized Flat.png)
