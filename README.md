@@ -10,8 +10,9 @@ Solarized Flat is elegant.
 
 It pursues the minimalist design --- without being over-simplified.
 
-![](https://raw.githubusercontent.com/circlecrystal/solarized-flat-theme/master/Solarized Flat.png)
+![](https://raw.githubusercontent.com/circlecrystal/solarized-flat-theme/master/Minimalist.png)
 ![](https://raw.githubusercontent.com/circlecrystal/solarized-flat-theme/master/Solarized Flat PC.png)
+![](https://raw.githubusercontent.com/circlecrystal/solarized-flat-theme/master/Solarized Flat.png)
 
 ## Installation
 
@@ -44,7 +45,7 @@ While inside the `Packages` directory, clone the theme repository using the comm
         "color_scheme": "Packages/Theme - Solarized Flat/Solarized Flat.tmTheme"
     }
 
-**Recommended Preferences Setting**
+**Recommended Preferences Settings**
 
 	{
 		"always_show_minimap_viewport": true
