@@ -55,6 +55,10 @@ While inside the `Packages` directory, clone the theme repository using the comm
         "color_scheme": "Packages/Theme - Solarized Flat/Solarized Flat.tmTheme"
     }
 
+### Recommended Preferences Setting
+
+![](https://raw.githubusercontent.com/circlecrystal/solarized-flat-theme/master/Recommended Preferences.png)
+
 ## Code Font
 
 The code font shown in the screenshot is Source Code Pro.
