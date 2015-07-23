@@ -44,11 +44,11 @@ While inside the `Packages` directory, clone the theme repository using the comm
         "color_scheme": "Packages/Theme - Solarized Flat/Solarized Flat.tmTheme"
     }
 
-### Recommended Preferences Setting
+**Recommended Preferences Setting**
 
-{
-	"always_show_minimap_viewport": true
-}
+	{
+		"always_show_minimap_viewport": true
+	}
 
 ## Code Font
 
