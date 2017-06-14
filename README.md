@@ -10,9 +10,9 @@ Solarized Flat is elegant.
 
 It pursues the minimalist design --- without being over-simplified.
 
-![](https://raw.githubusercontent.com/circlecrystal/solarized-flat-theme/master/Solarized Flat Dark Python.png)
+![](https://raw.githubusercontent.com/circlecrystal/solarized-flat-theme/master/SolarizedFlatDarkPython.png)
 
-![](https://raw.githubusercontent.com/circlecrystal/solarized-flat-theme/master/Solarized Flat Light Python.png)
+![](https://raw.githubusercontent.com/circlecrystal/solarized-flat-theme/master/SolarizedFlatLightPython.png)
 
 ## Installation
 
