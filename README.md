@@ -9,9 +9,7 @@ Project site: [https://github.com/circlecrystal/solarized-flat-theme](https://gi
 Solarized Flat is elegant.
 
 It pursues the minimalist design --- without being over-simplified.
-
 ![](https://raw.githubusercontent.com/circlecrystal/solarized-flat-theme/master/SolarizedFlatDarkPython.png)
-
 ![](https://raw.githubusercontent.com/circlecrystal/solarized-flat-theme/master/SolarizedFlatLightPython.png)
 
 ## Installation
@@ -42,14 +40,14 @@ While inside the `Packages` directory, clone the theme repository using the comm
 
     {
         "theme": "Solarized Flat Dark.sublime-theme",
-        "color_scheme": "Packages/Theme - Solarized Flat/Solarized Flat.tmTheme"
+        "color_scheme": "Packages/Theme - Solarized Flat/Solarized Flat Dark.tmTheme"
     }
 
 or
 
     {
         "theme": "Solarized Flat Light.sublime-theme",
-        "color_scheme": "Packages/Theme - Solarized Flat/Solarized Flat.tmTheme"
+        "color_scheme": "Packages/Theme - Solarized Flat/Solarized Flat Light.tmTheme"
     }
 
 **Recommended Preferences Settings**
