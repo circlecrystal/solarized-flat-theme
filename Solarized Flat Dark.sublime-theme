@@ -44,7 +44,7 @@
         "content_margin": [12, 3, 12, 3],
         "max_margin_trim": 0,
         "hit_test_level": 0.0,
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/tab-inactive.png",
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/tab-inactive.png",
         "layer0.inner_margin": [5, 5],
         "layer0.opacity": 1.0
     },
@@ -58,13 +58,13 @@
     {
         "class": "tab_control",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/tab-hover.png"
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/tab-hover.png"
     },
     // Tab active state
     {
         "class": "tab_control",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/tab-active.png"
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/tab-active.png"
     },
     // Tab dirty state (close button hidden)
     {
@@ -82,7 +82,7 @@
     {
         "class": "tab_close_button",
         "content_margin": [0, 0],
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/close-inactive.png",
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/close-inactive.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
     },
@@ -94,20 +94,20 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/close-inactive-hover.png",
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/close-inactive-hover.png",
         "layer0.opacity": 1.0
     },
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/close-active.png",
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/close-active.png",
         "layer0.opacity": 1.0
     },
     // Tab dirty button
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/dirty-inactive.png"
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/dirty-inactive.png"
     },
     {
         "class": "tab_close_button",
@@ -119,33 +119,33 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
         "layer0.opacity": 1.0,
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/dirty-active.png"
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/dirty-active.png"
     },
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/dirty-active.png"
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/dirty-active.png"
     },
     // Tab highlight button
     {
         "class": "tab_close_button",
         "settings": ["highlight_modified_tabs"],
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/dirty.png"
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/dirty.png"
     },
     // Tab close button hover
     {
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/close-hover.png"
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/close-hover.png"
     },
     // Tab close button pressed
     {
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
         "attributes": ["pressed"],
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/close-pressed.png"
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/close-pressed.png"
     },
 
 //
@@ -178,7 +178,7 @@
 
     {
         "class": "fold_button_control",
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/fold-closed.png",
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/fold-closed.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
         "content_margin": [8, 8]
@@ -186,17 +186,17 @@
     {
         "class": "fold_button_control",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/fold-closed-hover.png"
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/fold-closed-hover.png"
     },
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/fold-open.png"
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/fold-open.png"
     },
     {
         "class": "fold_button_control",
         "attributes": ["expanded", "hover"],
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/fold-open-hover.png"
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/fold-open-hover.png"
     },
 
 // EMPTY WINDOW BACKGROUND
@@ -316,7 +316,7 @@
     // Sidebar rows
     {
         "class": "tree_row",
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/sidebar-row-selected.png",
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/sidebar-row-selected.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1, 1]
     },
@@ -374,7 +374,7 @@
     // Sidebar file close
     {
         "class": "close_button",
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/file-close.png",
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/file-close.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": 0,
         "content_margin": [8, 8]
@@ -388,31 +388,31 @@
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/file-dirty.png",
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/file-dirty.png",
         "layer0.opacity": 1.0
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/file-dirty-selected.png"
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/file-dirty-selected.png"
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/file-close.png"
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/file-close.png"
     },
     // Sidebar file close hover
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/file-close-hover.png"
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/file-close-hover.png"
     },
     {
         "class": "close_button",
         "parents": [{"class": "tree_row", "attributes": ["hover", "selected"]}],
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/file-close-selected.png"
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/file-close-selected.png"
     },
 
 //
@@ -423,37 +423,37 @@
     {
         "class": "disclosure_button_control",
         "content_margin": [8, 8],
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/fold-closed.png",
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/fold-closed.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
     },
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/fold-closed-hover.png"
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/fold-closed-hover.png"
     },
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/fold-closed-hover.png"
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/fold-closed-hover.png"
     },
     // Sidebar group open
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/fold-open.png"
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/fold-open.png"
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/fold-open-hover.png"
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/fold-open-hover.png"
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/fold-open-hover.png"
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/fold-open-hover.png"
     },
 
 //
@@ -680,7 +680,7 @@
     // Regex search button
     {
         "class": "icon_regex",
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/regex.png",
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/regex.png",
         "layer0.tint": [79,91,102],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -694,7 +694,7 @@
     // Case sensitive search button
     {
         "class": "icon_case",
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/casesens.png",
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/casesens.png",
         "layer0.tint": [79,91,102],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -707,7 +707,7 @@
     // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/wholeword.png",
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/wholeword.png",
         "layer0.tint": [79,91,102],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -725,7 +725,7 @@
     // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/context.png",
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/context.png",
         "layer0.tint": [79,91,102],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -738,7 +738,7 @@
     // Use search buffer
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/buffer.png",
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/buffer.png",
         "layer0.tint": [79,91,102],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -755,7 +755,7 @@
     // Reverse search direction button (ST2 only)
     {
         "class": "icon_reverse",
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/reverse.png",
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/reverse.png",
         "layer0.tint": [79,91,102],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -768,7 +768,7 @@
     // Search wrap button
     {
         "class": "icon_wrap",
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/wrap.png",
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/wrap.png",
         "layer0.tint": [79,91,102],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -781,7 +781,7 @@
     // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/selection.png",
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/selection.png",
         "layer0.tint": [79,91,102],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -799,7 +799,7 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/casesens.png",
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/casesens.png",
         "layer0.tint": [79,91,102],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -817,7 +817,7 @@
     // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat/highlight.png",
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/highlight.png",
         "layer0.tint": [79,91,102],
         "layer0.opacity": 1,
         "content_margin": 8
