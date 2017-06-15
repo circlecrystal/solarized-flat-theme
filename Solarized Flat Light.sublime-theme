@@ -635,58 +635,6 @@
         "parents": [{"class": "tree_row","attributes": ["selected", "hover"]}],
         "color": [81, 95, 106]
     },
-
-//
-// SIDEBAR - OPEN FILE ICONS
-//
-
-    // Sidebar file close
-    {
-        "class": "close_button",
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Light/close.png",
-        "layer0.opacity": 0,
-        "layer0.inner_margin": 0,
-        "layer0.tint": [167, 173, 186],
-        "content_margin": [8,8]
-    },
-    {
-        "class": "close_button",
-        "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.opacity": 1
-    },
-    {
-        "class": "close_button",
-        "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.opacity": 1
-    },
-    // Sidebar file dirty
-    {
-        "class": "close_button",
-        "attributes": ["dirty"],
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Light/circle.png",
-        "layer0.opacity": 1,
-        "layer0.tint": [214, 129, 60]
-    },
-    {
-        "class": "close_button",
-        "attributes": ["dirty"],
-        "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Light/circle.png"
-    },
-    // Sidebar file close hover
-    {
-        "class": "close_button",
-        "attributes": ["hover"],
-        "layer0.tint": [214, 129, 60]
-    },
-    {
-        "class": "close_button",
-        "attributes": ["dirty", "hover"],
-        "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Light/close.png",
-        "layer0.tint": [214, 129, 60]
-    },
-
 //
 // SIDEBAR - GENERAL FILE ICONS
 //
@@ -726,12 +674,11 @@
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
         "layer0.texture": "Theme - Solarized Flat/Solarized Flat Light/folder-open.png"
     },
-
 //
 // FOLDER AND FILE ICONS
 //
 
-        // Hides Folder Icons if !hide_sidebar_icons
+    // Hides Folder Icons if !hide_sidebar_icons
 
     {
         "class": "disclosure_button_control",
@@ -740,74 +687,22 @@
         "layer0.opacity": 0
     },
 
-        // Replaces Default Folder Icons
+    // Replaces Default Folder Icons
 
     {
         "class": "icon_folder",
         "settings": ["!hide_sidebar_icons"],
         "content_margin": [8, 8],
         "layer0.texture": "Theme - Solarized Flat/Solarized Flat Light/folder-icon.png",
-        "layer0.opacity": 1.0
+        "layer0.opacity": 0.5
     },
         {
         "class": "icon_folder",
         "settings": ["!hide_sidebar_icons"],
         "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
         "layer0.texture": "Theme - Solarized Flat/Solarized Flat Light/folder_open-icon.png",
-        "layer0.opacity": 1.0
+        "layer0.opacity": 0.5
     },
-
-        // Sidebar file icons
-
-    {
-        "class": "icon_file_type",
-        // layer0.texture is filled in by code with the relevant icon name
-        "settings": ["!hide_sidebar_icons"],
-        "layer0.tint": [95, 99, 108],
-        "layer0.opacity": 0.6,
-        "content_margin": [8, 8]
-    },
-    {
-        "class": "icon_file_type",
-        "settings": ["!hide_sidebar_icons"],
-        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.tint": [51, 61, 69],
-        "layer0.opacity": 0.6
-    },
-    {
-        "class": "icon_file_type",
-        "settings": ["!hide_sidebar_icons"],
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.tint": [81, 95, 106],
-        "layer0.opacity": 0.9
-    },
-    {
-        "class": "icon_file_type",
-        "settings": ["!hide_sidebar_icons"],
-        "parents": [{"class": "tree_row", "attributes": ["selected", "hover"]}],
-        "layer0.tint": [81, 95, 106],
-        "layer0.opacity": 0.9
-    },
-    {
-        "class": "icon_file_type",
-        "settings": ["hide_sidebar_icons"],
-        "content_margin": [0,0],
-        "layer0.opacity": 0.0
-    },
-    {
-        "class": "icon_folder",
-        "settings": ["hide_sidebar_icons"],
-        "layer0.texture": "",
-        "layer0.opacity": 0.0,
-        "content_margin": [0,0]
-    },
-    {
-        "class": "icon_folder_loading",
-        "settings": ["hide_sidebar_icons"],
-        "content_margin": [0,0],
-        "layer0.opacity": 0.0
-    },
-
 //
 // STANDARD TEXT BUTTONS
 //
