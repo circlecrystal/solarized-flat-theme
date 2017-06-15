@@ -8,7 +8,7 @@
     {
         "class": "tabset_control",
         "layer0.texture": "",
-        "layer0.tint": [223, 221, 217],
+        "layer0.tint": [238, 231, 213],
         "layer0.inner_margin": 0,
         "layer0.opacity": 1,
         "content_margin": [3, 0, 3, 0],
@@ -425,7 +425,7 @@
     {
         "class": "grid_layout_control",
         "border_size": 1,
-        "border_color": [223, 221, 217]
+        "border_color": [238, 231, 213]
     },
 
     {
@@ -443,7 +443,7 @@
 
     {
         "class": "dialog",
-        "layer0.tint": [223, 221, 217],
+        "layer0.tint": [238, 231, 213],
         "layer0.opacity": 1.0
     },
 
@@ -560,7 +560,7 @@
         "class": "sidebar_container",
         "layer0.texture": "",
         "layer0.opacity": 1,
-        "layer0.tint": [223, 221, 217],
+        "layer0.tint": [220, 213, 200],
         "layer0.inner_margin": [1,5,2,1],
         "content_margin": [0,4,0,0]
     },
@@ -577,7 +577,7 @@
     {
         "class": "tree_row",
         "layer0.texture": "",
-        "layer0.tint": [213, 209, 202],
+        "layer0.tint": [238, 231, 213],
         "layer0.opacity": 0,
         "layer0.inner_margin": [1,1]
     },
@@ -791,7 +791,7 @@
     },
     {
         "class": "quick_panel_row",
-        "layer0.tint": [223, 221, 217],
+        "layer0.tint": [238, 231, 213],
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1
     },
@@ -826,7 +826,7 @@
 
     {
         "class": "mini_quick_panel_row",
-        "layer0.tint": [223, 221, 217],
+        "layer0.tint": [238, 231, 213],
         "layer0.opacity": 1
     },
     {
