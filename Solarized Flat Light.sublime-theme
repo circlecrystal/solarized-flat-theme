@@ -24,7 +24,10 @@
         "mouse_wheel_switch": true
     },
     // Tab element
-
+    {
+        "class": "tab_control",
+        "content_margin": [12, 3, 12, 3]
+    },
     // Tabs
     {
         "class": "tab_control",
