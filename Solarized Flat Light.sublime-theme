@@ -11,7 +11,7 @@
         "layer0.tint": [223, 221, 217],
         "layer0.inner_margin": 0,
         "layer0.opacity": 1,
-        "content_margin": 0,
+        "content_margin": [3, 0, 3, 0],
         "tab_overlap": 0,
         "tab_width": 128,
         "tab_min_width": 48,
@@ -526,7 +526,7 @@
         "layer0.texture": "",
         "layer0.tint": [150, 148, 146],
         "layer0.opacity": 1,
-        "content_margin": 4
+        "content_margin": [12, 12, 8, 12]
     },
     // Status bar button
     {
