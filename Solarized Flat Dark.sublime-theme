@@ -252,7 +252,7 @@
 // OVERLAY SCROLLBARS
 //
 
-        // Overlay toggle scroll bar
+    // Overlay toggle scroll bar
 
     {
         "class": "scroll_area_control",
@@ -265,14 +265,12 @@
         "overlay": false
     },
 
-        // Overlay vertical scroll bar
+    // Overlay vertical scroll bar
 
     {
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
         "layer0.texture": "",
-        // @todo
-        // "layer0.tint": [192, 197, 206],
         "layer0.inner_margin": [0,5],
         "layer0.opacity": 0,
         "blur": false
