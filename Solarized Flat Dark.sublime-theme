@@ -199,6 +199,121 @@
         "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/fold-open-hover.png"
     },
 
+//
+// STANDARD SCROLLBARS
+//
+
+    // Standard vertical scroll bar
+    {
+        "class": "scroll_bar_control",
+        "layer0.texture": "",
+        "layer0.tint": [0,  43,  54],
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [0,0],
+        "blur": true
+    },
+    // Standard horizontal scroll bar
+    {
+        "class": "scroll_bar_control",
+        "attributes": ["horizontal"],
+        "layer0.texture": "",
+        "layer0.tint": [0,  43,  54],
+        "layer0.inner_margin": [0,0],
+        "blur": true
+    },
+    // Standard scroll bar corner
+    {
+        "class": "scroll_corner_control",
+        "layer0.texture": "",
+        "layer0.tint": [0,  43,  54],
+        "layer0.inner_margin": [0,0],
+        "layer0.opacity": 1
+    },
+    // Standard vertical scroll puck
+    {
+        "class": "puck_control",
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/standard-puck-vertical-dark.png",
+        "layer0.opacity": 1,
+        "layer0.inner_margin": [0, 10],
+        "content_margin": [5, 12],
+        "blur": false
+    },
+    // Standard horizontal scroll puck
+    {
+        "class": "puck_control",
+        "attributes": ["horizontal"],
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Dark/standard-puck-horizontal-dark.png",
+        "layer0.inner_margin": [10, 0],
+        "content_margin": [12, 5],
+        "blur": false
+    },
+
+//
+// OVERLAY SCROLLBARS
+//
+
+        // Overlay toggle scroll bar
+
+    {
+        "class": "scroll_area_control",
+        "settings": ["overlay_scroll_bars"],
+        "overlay": true
+    },
+    {
+        "class": "scroll_area_control",
+        "settings": ["!overlay_scroll_bars"],
+        "overlay": false
+    },
+
+        // Overlay vertical scroll bar
+
+    {
+        "class": "scroll_bar_control",
+        "settings": ["overlay_scroll_bars"],
+        "layer0.texture": "",
+        // @todo
+        // "layer0.tint": [192, 197, 206],
+        "layer0.inner_margin": [0,5],
+        "layer0.opacity": 0,
+        "blur": false
+    },
+
+        // Overlay horizontal scroll bar
+
+    {
+        "class": "scroll_bar_control",
+        "settings": ["overlay_scroll_bars"],
+        "attributes": ["horizontal"],
+        "layer0.inner_margin": [5,0],
+        "layer0.opacity": 0,
+        "blur": true
+    },
+
+        // Overlay vertical puck
+
+    {
+        "class": "puck_control",
+        "settings": ["overlay_scroll_bars"],
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Light/overlay-puck-vertical.png",
+        "layer0.opacity": 0.85,
+        "layer0.inner_margin": [0, 5],
+        "content_margin": [5, 20],
+        "blur": false
+    },
+
+        // Overlay horizontal puck
+
+    {
+        "class": "puck_control",
+        "settings": ["overlay_scroll_bars"],
+        "attributes": ["horizontal"],
+        "layer0.texture": "Theme - Solarized Flat/Solarized Flat Light/overlay-puck-horizontal.png",
+        "layer0.opacity": 0.85,
+        "layer0.inner_margin": [5, 0],
+        "content_margin": [20, 5],
+        "blur": false
+    },
+
 // EMPTY WINDOW BACKGROUND
 //
 
